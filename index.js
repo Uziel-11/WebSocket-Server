@@ -14,6 +14,7 @@ const io = new Server(server, {
 app.get('/', (req, res) =>{
     res.send('<h1> Respondiendo a la Solicitud </h1>');
 });
+
 app.get('/home', (req, res) =>{
     res.send('<h2> Bienvenido a nuestro Menu </h2>');
 });
